@@ -1,0 +1,15 @@
+{
+  "name": "morning-events-app",
+  "version": "1.0.0",
+  "description": "Daily 6am SMS with local events for Essex, Hudson, Union counties + NYC metro",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "node-cron": "^3.0.3",
+    "twilio": "^5.0.0"
+  }
+}
