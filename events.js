@@ -35,7 +35,7 @@ If no specific events are found for today, list the best upcoming events this we
 End with an encouraging sign-off.`;
 
   const response = await client.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: "claude-sonnet-4-6",
     max_tokens: 1000,
     tools: [
       {
